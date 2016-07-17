@@ -1,14 +1,35 @@
 // Colors
 
-@text-color: #AAB2BD; // Grey
-@text-color-subtle: #656D78; // Steel
-@text-color-highlight: #F5F7FA; // Ivory
+@ivory: #F5F7FA;
+@silver: #E6E9ED;
+@slate: #CCD1D9;
+@grey: #AAB2BD;
+@steel: #656D78;
+@iron: #434A54;
+@onyx: #2C3136;
+@black: #1A1D20;
+@pure-black: #000;
+
+@blue: #4FC1E9;
+@ocean: #5D9CEC;
+@purple: #AC92EC;
+@pink: #EC87C0;
+@red: #ED5565;
+@orange: #FC6E51;
+@yellow: #FFCE54;
+@green: #A0D468;
+@emerald: #48CFAD;
+@teal: #4DCBD2;
+
+@text-color: @grey;
+@text-color-subtle: @steel;
+@text-color-highlight: @ivory;
 @text-color-selected: @text-color-highlight;
 
-@text-color-info: #4FC1E9; // Blue
-@text-color-success: #A0D468; // Green
-@text-color-warning: #FFCE54; // Yellow
-@text-color-error: #FC6E51; // Orange
+@text-color-info: @blue; // Blue
+@text-color-success: @green; // Green
+@text-color-warning: @yellow; // Yellow
+@text-color-error: @orange; // Orange
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -16,17 +37,16 @@
 @text-color-modified: @text-color-warning;
 @text-color-removed: @text-color-error;
 
-@background-color-info: #4FC1E9; // Blue
-@background-color-success: #A0D468; // Green
-@background-color-warning: #FFCE54; // Yellow
-@background-color-error: #FC6E51; // Orange
-// TODO - Start Here
+@background-color-info: lighten(@blue, 10%);
+@background-color-success: lighten(@green, 10%);
+@background-color-warning: lighten(@yellow, 10%);
+@background-color-error: lighten(@red, 10%);
 @background-color-highlight: rgba(255, 255, 255, 0.05);
 @background-color-selected: #4182C4;
 
-@app-background-color: #000;
+@app-background-color: @black;
 
-@base-background-color: lighten(@tool-panel-background-color, 5%);
+@base-background-color: @black;
 @base-border-color: rgba(0, 0, 0, 0.5);
 
 @pane-item-background-color: @base-background-color;
@@ -35,7 +55,7 @@
 @input-background-color: #212224;
 @input-border-color: @base-border-color;
 
-@tool-panel-background-color: #1d1f21;
+@tool-panel-background-color: @black;
 @tool-panel-border-color: @base-border-color;
 
 @inset-panel-background-color: #161719;
@@ -52,23 +72,23 @@
 @button-background-color-selected: #5c6064;
 @button-border-color: @base-border-color;
 
-@tab-bar-background-color: #222;
-@tab-bar-border-color: darken(@tab-background-color-active, 10%);
+@tab-bar-background-color: @black;
+@tab-bar-border-color: @pure-black;
 @tab-background-color: #333;
-@tab-background-color-active: #222;
-@tab-border-color: #484848;
+@tab-background-color-active: @black;
+@tab-border-color: @pure-black;
 
-@tree-view-background-color: #303030;
+@tree-view-background-color: @black;
 @tree-view-border-color: @tool-panel-border-color;
 
-@scrollbar-background-color: #222425; // Needs to be opaque -> atom/atom/issues/4578
-@scrollbar-color: rgba(92, 92, 92, 0.5);
+@scrollbar-background-color: @pure-black;
+@scrollbar-color: @pure-black;
 
-@ui-site-color-1: @background-color-success; // green
-@ui-site-color-2: @background-color-info; // blue
-@ui-site-color-3: @background-color-warning; // orange
-@ui-site-color-4: #db2ff4; // purple
-@ui-site-color-5: #f5e11d; // yellow
+@ui-site-color-1: @background-color-success;
+@ui-site-color-2: @background-color-info;
+@ui-site-color-3: @background-color-warning;
+@ui-site-color-4: lighten(@purple, 20%);
+@ui-site-color-5: lighten(@orange, 20%);
 
 
 // Sizes
@@ -84,7 +104,7 @@
 @component-line-height: 25px;
 @component-border-radius: 2px;
 
-@tab-height: 26px;
+@tab-height: 30px;
 
 
 // Other
