@@ -1,9 +1,14 @@
-# Prisma
 
-_Still being worked on, not 100% ready yet._
+![Cover Image](http://www.cortes.us/wp-content/uploads/2016/07/wdsfsfsf-2.png)
 
-A beautiful and minimal dark UI theme for Atom.
+## Examples
 
-This is the latest version of the **Prisma** UI theme. It's a dark syntax theme crafted especially for [Atom](http://atom.io), with a minimal feel and subtle colors that are meant to be easy on the eyes.
+![JavaScript Large Example](http://www.cortes.us/wp-content/uploads/2016/07/prisma-js-large-example.png)
 
-![](https://f.cloud.github.com/assets/671378/2265086/c6897dba-9e7b-11e3-945d-551cac610717.png)
+![LESS Example](http://www.cortes.us/wp-content/uploads/2016/07/prisma-less-example.png)
+
+![HTML Example](http://www.cortes.us/wp-content/uploads/2016/07/prisma-html-example.png)
+
+![JavaScript Example](http://www.cortes.us/wp-content/uploads/2016/07/prisma-js-example.png)
+
+![LESS Example](http://www.cortes.us/wp-content/uploads/2016/07/prisma-less-example.png)
